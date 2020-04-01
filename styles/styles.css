@@ -1,8 +1,31 @@
-/*Black top navbar*/
+/*Black navbar*/
+.top-level {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.top-level-actions ul{
+    list-style-type: none;
+    display: inline-flex;
+}
 
-/*Logo*/
-.logo {
-    height: auto;
+/*White navbar*/
+.site-actions ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.site {
+    display: flex;
+}
+
+/*Hero*/
+.hero {
+    background-image: url(/img/hero/h1_hero.jpg);
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+#hero-lady {
+    height: 400px;
     width: auto;
 }
-/*Logo -end*/
