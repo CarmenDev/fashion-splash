@@ -67,7 +67,20 @@ p {
 }
 
 /*Latest Products*/
+.latest-products {
+    display: flex;
+}
 .l-products ul {
     list-style-type: none;
     display: inline-flex;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    width: 220px;
+    height: auto;
+    margin: 10px;
 }
