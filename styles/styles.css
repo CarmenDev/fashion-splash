@@ -1,3 +1,15 @@
+/*Font-families
+font-family: 'Gotu', sans-serif;
+font-family: 'Courgette', cursive;
+font-family: 'Vidaloka', serif;*/
+
+
+h1, h2 {
+    font-family: 'Vidaloka', serif;
+}
+p {
+    font-family: 'Gotu', sans-serif;
+}
 /*Black navbar*/
 .top-level {
     background-color: black;
@@ -10,6 +22,10 @@
 }
 
 /*White navbar*/
+.logo {
+    padding-top: 10px;
+    margin-left: 50px;
+}
 .site-actions ul {
     list-style-type: none;
     display: inline-flex;
@@ -28,4 +44,30 @@
 #hero-lady {
     height: 400px;
     width: auto;
+    margin-left: 150px;
+}
+
+/*Categories*/
+.categories {
+    height: 100px;
+    width: auto;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: -30px;
+}
+.category-boxes {
+    display: flex;
+    height: 
+}
+#category-img {
+    height:180px;
+    width: 25% vw;
+    display: space-between;
+    margin: 8px;
+}
+
+/*Latest Products*/
+.l-products ul {
+    list-style-type: none;
+    display: inline-flex;
 }
