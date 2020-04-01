@@ -5,6 +5,7 @@ font-family: 'Vidaloka', serif;*/
 
 body {
     font-family: 'Gotu', sans-serif;
+    font-size: 12px;
 }
 
 h1, h2 {
@@ -12,6 +13,9 @@ h1, h2 {
 }
 h1 {
     font-size: 55px;
+}
+h2 {
+    font-size: 25px;
 }
 
 /*Black navbar*/
@@ -40,7 +44,8 @@ h1 {
 
 /*Hero*/
 .hero {
-    background-image: url(/img/hero/h1_hero.jpg);
+    background: url(/img/hero/h1_hero.jpg);
+    background-repeat: no-repeat;
     height: 400px;
     width: auto;
     display: flex;
@@ -92,6 +97,80 @@ h1 {
 }
 /*Find the best Product form our shop*/
 .best-product {
-    background-image: url(/img/categories/card.png);
+    background: url(/img/categories/card.png);
     height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card-man {
+    height: 360px;
+    width: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+#pile-polos {
+    height: 75px;
+    width: auto;
+    opacity: 80%;
+}
+
+
+/*Best Collection of This Month*/
+.best-collection {
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#pile-jeans {
+    height: 75px;
+    width: auto;
+    margin-top: 60px;
+}
+#dude-posing {
+    height: 350px;
+    width: auto;
+}
+
+/*Get our latest offers*/
+.latest-offers {
+    background: url(/img/collection/latest-offer.png);
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+#latest-man {
+    height: 235px;
+    width: auto;
+}
+
+/*Three boxes*/
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.boxes div {
+    width: auto;
+    margin: 8%;
+}
+
+/*Gallery*/
+.gallery {
+    display: flex;
+    height: 200px;
+    width: auto;
+}
+#gallery-img {
+    height: 180px;
+    width: 20% vw;
+}
+
+/*4 boxes*/
+.links {
+    display: flex;
+    width: 80%;
+    justify-items: center;
 }
