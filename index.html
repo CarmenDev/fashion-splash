@@ -11,8 +11,11 @@
 <body>
 
 <header>
+
+<!--Black navbar-->
     <div class="top-level">
         <div class="region">
+            <!--How can I move the flag further down? Padding does not work.-->
             <span class="region_flag"> <img src="/img/icon/header_icon.png" alt="USA flag"> </span>
             <span class="region_dropdown"> USA </span>
             <span class="region_telephone"> +777 2345 7886 </span>
@@ -24,9 +27,11 @@
               <li>Shopping</li>
               <li>Cart</li>
               <li>Checkout</li>
-         </ul>
-    </nav>
+           </ul>
+        </nav>
     </div>
+
+    <!--White navbar-->
     <div class="site">
         <span class="logo"> <img src="/img/logo/logo.png" alt="Estore logo"></span>
         <nav class="site-actions">
@@ -44,11 +49,11 @@
         </div>
         <span class="wish-list"></span>
         <span class="shopping-cart"></span>
-        <button class="sign-in">Sign In</button>
+        <button class="btn"> <strong>Sign In</strong> </button>
     </div>
     <div class="hero">
         <div> <img src="/img/hero/hero_man.png" alt="Hero Lady" id="hero-lady"> </div>
-        <div> 60% Discount <br> <h1>Winter Collection</h1> <br> Best Cloth Collection By 2020!<br> <button>Shop Now</button> </div>
+        <div class="hero-text"> <span style="color: blue;"> <span style="font-family: 'Courgette', cursive;">60% Discount</span> </span><br> <h1>Winter Collection</h1> <br>  <em>Best Cloth Collection By 2020!</em><br> <button class="btn">Shop Now</button> </div>
     </div>
 </header class="header">
 
@@ -56,9 +61,9 @@
     <h2> Shop by Category</h2>
 </div>
 <div class="category-boxes">
-        <div> <img src="/img/categories/cat1.jpg" alt="Women's" id="category-img"> </div>
-        <div> <img src="/img/categories/cat2.jpg" alt="Winter Cloth" id="category-img"> </div>
-        <div> <img src="/img/categories/cat3.jpg" alt="Men's Cloth" id="category-img"> </div>
+        <div class="women"> <img src="/img/categories/cat1.jpg" alt="Women's" id="category-img"> </div>
+        <div class="winter"> <img src="/img/categories/cat2.jpg" alt="Winter Cloth" id="category-img"></div>
+        <div class="men"> <img src="/img/categories/cat3.jpg" alt="Men's Cloth" id="category-img"> </div>
     </div>
 
 <div class="latest-products">
@@ -84,15 +89,19 @@
 
 <div class="best-product">
     <div> <img src="/img/categories/card-man.png" alt="Card man" id="card-man"> </div>
-    <div> <h2>Find The Best Product <br> from Our Shop</h2> Check out our best products here <br> <button>Shop Now</button> </div>
+    <div> <h2>Find The Best Product <br> from Our Shop</h2> Check out our best products here <br> <button class="btn-1">Shop Now</button> </div>
     <div> <img src="/img/categories/card-shape.png" alt="Card man" id="pile-polos"> </div>
 
 </div>
 
 <div class="best-collection">
-    <div> <h2>Best Collection <br> of this Month</h2> The best designer jeans.  <br> <button>Shop Now </button> <br> <img src="/img/collection/collection1.png" alt="Pile of jeans" id="pile-jeans"></div>
+    <div> <h2>Best Collection <br> of this Month</h2> The best designer jeans.  <br> <button class="btn">Shop Now </button> <br> <img src="/img/collection/collection1.png" alt="Pile of jeans" id="pile-jeans"></div>
     <div> <img src="/img/collection/collection2.png" alt="Dude posing" id="dude-posing"> </div>
-    <div>  </div>
+    <div> 
+        <div class="coll-items"><img src="/img/collection/collection3.png" alt="Yellow t-shirt"> <strong>Men's T-shirts</strong></div> <br>
+        <div class="coll-items"><img src="/img/collection/collection4.png" alt="Pair of jeans"> <span style="background-color: blue;color: white; border-radius: 5px; padding: 2px;"> <strong>Men's Jeans</strong> </span></div> <br>
+        <div class="coll-items"><img src="/img/collection/collection5.png" alt="Army Jacket"> <strong>Men's Winter Jacket</strong></div>
+    </div>
 </div>
 
 <div class="latest-offers">
@@ -101,7 +110,7 @@
     </div>
     <div> 
         <div class="search-bar">
-        <input type="text" placeholder="Your email here"/> <button>Shop Now</button>
+        <input type="text" placeholder="Your email here"/> <button class="btn">Shop Now</button>
         </div> 
     </div>
     <!--The lady's picture is hidden somewhere in the background.-->

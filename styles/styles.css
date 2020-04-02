@@ -17,16 +17,55 @@ h1 {
 h2 {
     font-size: 25px;
 }
-
+h3 {
+    font-size: 12px;
+}
+/*Buttons*/
+.btn {
+    background-color: blue;
+    color: white;
+    font-family: 'Gotu', sans-serif;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 black;
+    margin: 10px;
+}
+.btn:hover {
+    background-color: teal;
+}
+.btn-1 {
+    background-color: black;
+    color: white;
+    font-family: 'Gotu', sans-serif;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 black;
+}
+.btn-1:hover {
+    background-color: slategrey;
+}
 /*Black navbar*/
 .top-level {
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-around;
+}
+.region {
+    padding-top: 9px;
 }
 .top-level-actions ul{
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
+}
+.top-level-actions ul li {
+    margin-left: 10px;
 }
 
 /*White navbar*/
@@ -40,6 +79,10 @@ h2 {
 }
 .site {
     display: flex;
+    justify-content: space-around;
+}
+.site ul li {
+    margin: 2%;
 }
 
 /*Hero*/
@@ -49,13 +92,17 @@ h2 {
     height: 400px;
     width: auto;
     display: flex;
+    justify-content: space-between;
+
 }
 #hero-lady {
     height: 400px;
     width: auto;
     margin-left: 150px;
 }
-
+.hero-text {
+    margin-top: 60px;
+}
 /*Categories*/
 .categories {
     height: 100px;
@@ -74,15 +121,20 @@ h2 {
     display: space-between;
     margin: 8px;
 }
-
 /*Latest Products*/
 .latest-products {
     display: flex;
-    margin-top: 65px;
+    justify-content: space-around;
+    margin-top: 65px; 
+    margin-bottom: 20px;  
 }
+
 .l-products ul {
     list-style-type: none;
     display: inline-flex;
+}
+.l-products ul li {
+    margin: 5px;
 }
 .container {
     display: flex;
@@ -111,11 +163,14 @@ h2 {
     margin-bottom: 50px;
 }
 #pile-polos {
+    margin-top: 120px;
     height: 75px;
     width: auto;
-    opacity: 80%;
+    opacity: 70%;
 }
-
+#pile-polos:hover {
+    transform: scale(1.2);
+}
 
 /*Best Collection of This Month*/
 .best-collection {
@@ -129,11 +184,22 @@ h2 {
     width: auto;
     margin-top: 60px;
 }
+#pile-jeans:hover {
+    opacity: 50%;
+}
 #dude-posing {
     height: 350px;
     width: auto;
 }
-
+#dude-posing:hover {
+    transform: scale(1.1);
+}
+.coll-items img {
+    height: 70px;
+}
+.coll-items img:hover {
+    opacity: 50%;
+}
 /*Get our latest offers*/
 .latest-offers {
     background: url(/img/collection/latest-offer.png);
@@ -143,8 +209,11 @@ h2 {
     align-items: center;
 }
 #latest-man {
-    height: 235px;
+    height: 230px;
     width: auto;
+}
+#latest-man:hover {
+    transform: scale(1.1);
 }
 
 /*Three boxes*/
@@ -173,4 +242,8 @@ h2 {
     display: flex;
     width: 80%;
     justify-items: center;
+
+}
+.links ul {
+    list-style-type: none;
 }
