@@ -84,7 +84,15 @@ h3 {
 .site ul li {
     margin: 2%;
 }
-
+.search-bar {
+    margin-left: 60px;
+    margin-top: 17px;
+}
+.search-bar input[type='text'] {
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid darkgray;
+    padding: 4px;
+}
 /*Hero*/
 .hero {
     background: url(/img/hero/h1_hero.jpg);
