@@ -1,0 +1,49 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1199px
+*/
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .top-level {
+     display: none;
+  }
+  .site-actions ul {
+    display: none;
+  }
+  .search-bar {
+    display: none;
+  }
+  /*Categories*/
+  .category-boxes {
+    flex-direction: column;
+  }
+  /*Latest products*/
+  .latest-products {
+    flex-wrap: wrap;
+  }
+  /*Find the best Product from our shop*/
+  #card-man {
+    display: none;
+  }
+  /*Best collection*/
+  #dude-posing {
+    display: none;
+  }
+  /*Get our latest offers*/
+  #latest-man {
+    display: none;
+  }
+  /*Three boxes*/
+  .boxes {
+    flex-wrap: wrap;
+  }
+  /*Gallery*/
+  .gallery {
+    flex-wrap: wrap;
+  }
+  /*Links div*/
+  .links {
+    flex-wrap: wrap;
+  }
+
+}
