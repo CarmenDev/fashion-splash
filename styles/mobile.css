@@ -1,0 +1,59 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .top-level {
+    display: none;
+    }
+    .site-actions ul {
+     display: none;
+    }
+    .search-bar {
+    display: none;
+    }
+    #hero-lady {
+    display: none;
+    }
+    /*Categories*/
+    .category-boxes {
+    flex-direction: column;
+    }
+    .latest-products {
+    flex-wrap: wrap;
+    }
+    .container {
+    flex-direction: column;
+    }
+    #card-man {
+      display: none;
+    }
+    #pile-polos {
+      display: none;
+    }
+    /*Best collection of this month*/
+    .best-collection {
+      flex-direction: column;
+    }
+    #dude-posing {
+      display: none;
+    }
+    /*Get our latest offers news*/
+    #latest-man {
+      display: none;
+    }
+    /*Three boxes*/
+    .boxes {
+      flex-direction: column;
+    }
+    /*Gallery*/
+    .gallery {
+      flex-wrap: wrap;
+    }
+    /*Links div*/
+    .links {
+      flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,272 @@
+/*Font-families
+font-family: 'Gotu', sans-serif;
+font-family: 'Courgette', cursive;
+font-family: 'Vidaloka', serif;*/
+
+body {
+    font-family: 'Gotu', sans-serif;
+    font-size: 12px;
+}
+
+h1, h2 {
+    font-family: 'Vidaloka', serif;
+}
+h1 {
+    font-size: 55px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 12px;
+}
+/*Buttons*/
+.btn {
+    background-color: blue;
+    color: white;
+    font-family: 'Gotu', sans-serif;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 black;
+    margin: 10px;
+}
+.btn:hover {
+    background-color: teal;
+}
+.btn-1 {
+    background-color: black;
+    color: white;
+    font-family: 'Gotu', sans-serif;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 black;
+}
+.btn-1:hover {
+    background-color: slategrey;
+}
+/*Black navbar*/
+.top-level {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.region {
+    padding-top: 9px;
+}
+.top-level-actions ul{
+    list-style-type: none;
+    display: flex;
+}
+.top-level-actions ul li {
+    margin-left: 10px;
+}
+
+/*White navbar*/
+.logo {
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.site-actions ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.site {
+    display: flex;
+    justify-content: space-around;
+}
+.site ul li {
+    margin: 2%;
+}
+.search-bar {
+    margin-left: 60px;
+    margin-top: 17px;
+}
+.search-bar input[type='text'] {
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid darkgray;
+    padding: 4px;
+}
+/*Hero*/
+.hero {
+    background: url(/img/hero/h1_hero.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#hero-lady {
+    height: 400px;
+    width: auto;
+    margin-left: 150px;
+}
+.hero-text {
+    margin-top: 60px;
+}
+/*Categories*/
+.categories {
+    height: 100px;
+    width: auto;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: -30px;
+}
+.category-boxes {
+    display: flex;
+    justify-content: center;
+}
+#category-img {
+    height:170px;
+    width: 25% vw;
+    display: space-between;
+    margin: 8px;
+}
+
+/*Latest Products*/
+.latest-products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px; 
+    margin-bottom: 20px;  
+}
+
+.l-products ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.l-products ul li {
+    margin: 5px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.item {
+    width: 215px;
+    height: auto;
+    margin: 10px;
+}
+.container h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+/*Find the best Product form our shop*/
+.best-product {
+    background: url(/img/categories/card.png);
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card-man {
+    height: 360px;
+    width: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+#pile-polos {
+    margin-top: 120px;
+    height: 75px;
+    width: auto;
+    opacity: 70%;
+}
+#pile-polos:hover {
+    transform: scale(1.2);
+}
+
+/*Best Collection of This Month*/
+.best-collection {
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#pile-jeans {
+    height: 75px;
+    width: auto;
+    margin-top: 60px;
+}
+#pile-jeans:hover {
+    opacity: 50%;
+}
+#dude-posing {
+    height: 350px;
+    width: auto;
+}
+#dude-posing:hover {
+    transform: scale(1.1);
+}
+.coll-items img {
+    height: 70px;
+}
+.coll-items img:hover {
+    opacity: 50%;
+}
+/*Get our latest offers*/
+.latest-offers {
+    background: url(/img/collection/latest-offer.png);
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+#latest-man {
+    height: 230px;
+    width: auto;
+}
+#latest-man:hover {
+    transform: scale(1.1);
+}
+
+/*Three boxes*/
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.boxes div {
+    width: 20%;
+    margin: 8%;
+}
+
+/*Gallery*/
+.gallery {
+    display: flex;
+    height: 200px;
+    width: auto;
+}
+#gallery-img {
+    height: 180px;
+    width: 20% vw;
+}
+
+/*4 boxes*/
+.links {
+    display: flex;
+    justify-content: center;
+}
+.links-item {
+    width: 20%;
+    margin-top: 40px;
+}
+.links ul {
+    list-style-type: none;
+}
+/*Footer*/
+.footer {
+    font-size: x-small;
+    margin-left: 90px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
